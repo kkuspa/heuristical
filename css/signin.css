@@ -119,6 +119,55 @@ h3
 	font-family: 'News Cycle', sans-serif;
 }
 
+.signup {
+
+	-moz-box-shadow:inset 0px 1px 0px 0px #4284D3;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #4284D3;
+	box-shadow:inset 0px 1px 0px 0px #4284D3;
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #3d94f6), color-stop(1, #1e62d0) );
+	background:-moz-linear-gradient( center top, #3d94f6 5%, #1e62d0 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#3d94f6', endColorstr='#1e62d0');
+	background-color:#3d94f6;
+	-webkit-border-top-left-radius:11px;
+	-moz-border-radius-topleft:11px;
+	border-top-left-radius:11px;
+	-webkit-border-top-right-radius:11px;
+	-moz-border-radius-topright:11px;
+	border-top-right-radius:11px;
+	-webkit-border-bottom-right-radius:11px;
+	-moz-border-radius-bottomright:11px;
+	border-bottom-right-radius:11px;
+	-webkit-border-bottom-left-radius:11px;
+	-moz-border-radius-bottomleft:11px;
+	border-bottom-left-radius:11px;
+	text-indent:0;
+	border:1px solid #337fed;
+	display:block;
+	margin:0 auto;
+	color:#ffffff;
+	font-family:Verdana;
+	font-size:15px;
+	font-weight:bold;
+	font-style:normal;
+	height:37px;
+	line-height:37px;
+	width:100px;
+	text-decoration:none;
+	text-align:center;
+	text-shadow:1px 1px 0px #1570cd;
+
+
+}
+.signup:hover {
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #1e62d0), color-stop(1, #4284D3) );
+	background:-moz-linear-gradient( center top, #1e62d0 5%, #4284D3 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#1e62d0', endColorstr='#3d94f6');
+	background-color:#1e62d0;
+}.signup:active {
+	position:relative;
+	top:1px;
+}
+
 a:hover 
 {
 	color: #E6E6E6;
