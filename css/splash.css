@@ -3,10 +3,10 @@ html{
 }
 
 body {
-    
+    padding-top: 60px;
     padding: 100px;
     background-color: #FFFFFF;
-  	width: 1200px;
+  	width: 800px;
   	margin: 0 auto;
   	box-shadow:inset 0 0 2px #cccccc;
 }
@@ -20,7 +20,7 @@ h1.title {
 	font-weight:600;
 }
 
-P.intro {
+p.intro {
 	text-align: center;
 	font-family: 'News Cycle', sans-serif;
 	font-size: 26px;
@@ -39,7 +39,6 @@ height:1em;
 
 td.tbhdr
 {
-	padding-left: 50px;
 	font-family: 'News Cycle', serif;
 	font-weight:300;
 }
@@ -55,20 +54,14 @@ td.expo
 	font-family: 'News Cycle', serif;
 	font-size: 14px;
 	font-weight:100;
-	padding-right: 150px;
-}
-
-
-col_12
-{
-	font-family: 'News Cycle', sans-serif;
+	padding-right: 25px;
 }
 
 ul
 {
-list-style-type:none;
-margin:0;
-padding:0;
+	list-style-type:none;
+	margin:0;
+	padding:0;
 }
 
 
@@ -77,6 +70,15 @@ padding:0;
 li
 {
 float:left;
+color:#FFFFFF;
+}
+
+a.main-nav
+{
+	text-align:center;
+	height: 26px;
+	text-decoration:none;
+	text-transform:uppercase;
 }
 
 a
@@ -84,18 +86,28 @@ a
 	display:block;
 	font-family: 'News Cycle', sans-serif;
 	width:100px;
+	color: #4284D3;
+}
+
+a.btlink
+{
+
 }
 
 a:link {text-decoration:none;}
 a:visited {text-decoration:none;}
-a:hover {text-decoration:underline;}
-a:active {text-decoration:underline;}
+
+a:hover 
+{
+	color: #E6E6E6;
+}
+
 
 .signup {
 
-	-moz-box-shadow:inset 0px 1px 0px 0px #97c4fe;
-	-webkit-box-shadow:inset 0px 1px 0px 0px #97c4fe;
-	box-shadow:inset 0px 1px 0px 0px #97c4fe;
+	-moz-box-shadow:inset 0px 1px 0px 0px #4284D3;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #4284D3;
+	box-shadow:inset 0px 1px 0px 0px #4284D3;
 	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #3d94f6), color-stop(1, #1e62d0) );
 	background:-moz-linear-gradient( center top, #3d94f6 5%, #1e62d0 100% );
 	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#3d94f6', endColorstr='#1e62d0');
@@ -131,8 +143,8 @@ a:active {text-decoration:underline;}
 
 }
 .signup:hover {
-	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #1e62d0), color-stop(1, #3d94f6) );
-	background:-moz-linear-gradient( center top, #1e62d0 5%, #3d94f6 100% );
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #1e62d0), color-stop(1, #4284D3) );
+	background:-moz-linear-gradient( center top, #1e62d0 5%, #4284D3 100% );
 	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#1e62d0', endColorstr='#3d94f6');
 	background-color:#1e62d0;
 }.signup:active {
