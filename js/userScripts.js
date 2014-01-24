@@ -11,9 +11,9 @@ function SignUp() {
 	user.set("email", email);
 	 
 	// other fields can be set just like with Parse.Object
-	user.set("first name", firstname);
-	user.set("last name", lastname);
-	user.set("full name", firstname + " " + lastname);
+	user.set("firstname", firstname);
+	user.set("lastname", lastname);
+	user.set("fullname", firstname + " " + lastname);
 	 
 	user.signUp(null, {
 	  success: function(user) {
