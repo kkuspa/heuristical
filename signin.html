@@ -1,6 +1,6 @@
 <html>
 <head>
-	<title>Login page</title>
+	<title>Login Page</title>
 	<meta charset="utf-8">
 	<meta name="viewport" content="widt=device-width, initial-scale=1, minimum-scale=1">
 	<link href='http://fonts.googleapis.com/css?family=News+Cycle' rel='stylesheet' type='text/css'>
@@ -10,15 +10,30 @@
 
 <body>
 
-	<h2>Join Stanford's Newest Recruitment Platform</h2>
+	<header role="banner">
+		<div class = "c">
+				<!-- <ul> links for nav bar go here </ul>-->
+				<ul>
+					<li><a class="main-nav" href="index.html">Home</a></li>
+					<li><a class="main-nav" href="team.html">About us</a></li>
+					<li><a class="main-nav" href="contact.html">Contact</a></li>
+					<li><a class="main-nav" href="signin.html">Sign in</a></li><br>
+				</ul>
+			<!--maybe a FB button?-->
+		</div>
+	</div>
+</header>
+<br>
+<br>
+<br>
 
-	<h3>Sign up now - it's free</h3>
+	<h1>Join Stanford's Newest Recruitment Platform</h1>
 
 	<!--Student Pictures-->
-	<table>
+	<table class="main">
 		<tr>
 			<td>
-				<table>
+				<table class="pics">
 
 					<tr>
 						<td>
@@ -37,13 +52,18 @@
 			</td>
 			
 			<td>
-				<form action="demo_form.asp">
-			 		<input type="text" name="firstname" placeholder="First Name" style="color:#888;" value="First Name"/>
-			 		<input type="text" name="lastname" placeholder="Last Name" style="color:#888;" value="Last Name"/><br>
-			 		<input type="text" name="email" placeholder="Email.edu Address" style="color:#888;" value="Email"/><br>
-			 		<input type="text" name="pass" placeholder="Password" style="color:#888;" value="Password"/><br>
-					<input type="submit" value="Submit">
-				</form>
+				<h3>Sign up now - it's free</h3>
+					<form action="login_form.asp">
+						<div class="name">
+							<input class="txtboxname" type="text" name="firstname" placeholder="First Name" style="color:#888;"/>
+				 			<input class="txtboxname" type="text" name="lastname" placeholder="Last Name" style="color:#888;"/><br>
+						</div>
+						<div class="credentials">
+				 			<input class="txtbox" type="text" name="email" placeholder="Email Address" style="color:#888;"/><br>
+				 			<input class="txtbox" type="text" name="pass" placeholder="Password" style="color:#888;"/><br>
+				 		</div>
+						<input class="submit" type="Submit" title="Submit">
+					</form>
 			</td>
 		</tr>
 		
