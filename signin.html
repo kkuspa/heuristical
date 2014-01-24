@@ -6,6 +6,11 @@
 	<link href='http://fonts.googleapis.com/css?family=News+Cycle' rel='stylesheet' type='text/css'>
 	<link href='http://fonts.googleapis.com/css?family=Russo+One' rel='stylesheet' type='text/css'>
 	<link href="css/signin.css" rel="stylesheet">
+	<script type="text/javascript" src="http://www.parsecdn.com/js/parse-1.2.16.min.js"></script>
+	<script type="text/javascript">
+    Parse.initialize("RnvCS430jDxWXYt8dZUndhh8Ex1ghioJSAac5dqG", "pAjrkHOn0OKoNfREDdFMipaGahR6xlBdykkdyUAT");
+    </script>
+	<script type="text/javascript" src="js/userScripts.js"></script>
 </head>
 
 <body>
@@ -50,10 +55,10 @@
 
 				</table>
 			</td>
-			
+
 			<td>
 				<h3>Sign up now - it's free</h3>
-					<form action="login_form.asp">
+					<form id="signupForm">
 						<div class="name">
 							<input class="txtboxname" type="text" name="firstname" placeholder="First Name" style="color:#888;"/>
 				 			<input class="txtboxname" type="text" name="lastname" placeholder="Last Name" style="color:#888;"/><br>
@@ -62,7 +67,7 @@
 				 			<input class="txtbox" type="text" name="email" placeholder="Email Address" style="color:#888;"/><br>
 				 			<input class="txtbox" type="text" name="pass" placeholder="Password" style="color:#888;"/><br>
 				 		</div>
-						<input class="submit" type="Submit" title="Submit">
+						<input type="button" class="signup" onclick="SignUp()" value="Sign Up">
 					</form>
 			</td>
 		</tr>
